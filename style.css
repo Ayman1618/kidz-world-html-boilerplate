@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nv {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lg img {
+    width: 120px;
+}
+
+.ct {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.ct img {
+    width: 30px;
+    height: 30px;
+}
+
+.mn {
+    background-image: url(assets/kw-background.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 390px;
+    padding: 10px 50px;
+    background-repeat: no-repeat;
+}
+
+.mn-txt {
+    color: white;
+    line-height: 0.8;
+}
+
+.mn-txt h1 {
+    font-size: 60px;
+}
+
+.mn-txt p {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.disc-bks {
+    margin: 100px 0;
+    padding: 0 50px;
+}
+
+.bks-hdg {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 3px;
+}
+
+.bks {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.bkitem {
+    width: 150px;
+}
+
+.bkimg {
+    height: 215px;
+    background-repeat: no-repeat;
+}
+
+.bkimg1 {
+    background-image: url(assets/book1.png);
+    background-size: 100%;
+}
+
+.gameimg {
+    background-size: 100%;
+    height: 212px;
+    background-repeat: no-repeat;
+}
+
+.gameimg1 {
+    background-image: url(assets/dart-board.png);
+}
+
+.handimg {
+    background-size: 100%;
+    height: 215px;
+    background-repeat: no-repeat;
+}
+
+.handimg1 {
+    background-image: url(assets/bookmarks.png);
+}
+
+
+.bkimg2 {
+    background-image: url(assets/book2.png);
+}
+
+.bkimg3 {
+    background-image: url(assets/book3.png);
+}
+
+.bkimg4 {
+    background-image: url(assets/book4.png);
+}
+
+.bkimg5 {
+    background-image: url(assets/book5.png);
+}
+
+.bkimg6 {
+    background-image: url(assets/book6.png);
+}
+
+.gmitem {
+    width: 230px;
+}
+
+.gameimg2 {
+    background-image: url(assets/connect-four.png);
+}
+
+.gameimg3 {
+    background-image: url(assets/jenga.png);
+}
+
+.gameimg4 {
+    background-image: url(assets/monopoly.png);
+}
+
+.hmditem {
+    width: 230px;
+}
+
+.handimg2 {
+    background-image: url(assets/birthday-card.png);
+}
+
+.handimg3 {
+    background-image: url(assets/stuffed-toy.png);
+}
+
+.handimg4 {
+    background-image: url(assets/dream-catcher.png);
+}
+
+footer {
+    background-color: black;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.bt h3 {
+    margin: 3px;
+    font-weight: 100;
+}
+
+.bt .im {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(assets/krishti.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.nm {
+    margin-top: 30px;
+    text-align: end;
+    font-size: 14px;
+}
+
+.nm h3 {
+    margin: 5px;
+}
+
+.nm p {
+    margin: 0%;
+}
+
+@media screen and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+        font-weight: bolder;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0%;
+    }
+
+    .nv {
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lg img {
+        width: 120px;
+    }
+
+    .ct {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        width: 120px;
+        text-align: center;
+    }
+
+    .ct img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mn {
+        background-image: url(assets/kw-background.png);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 211px;
+        padding: 5px 40px;
+        background-repeat: no-repeat;
+    }
+
+    .mn-txt {
+        color: white;
+        width: 133px;
+    }
+
+    .mn-txt h1 {
+        font-size: 30px;
+        margin: 5px 0px;
+        line-height: 1.2;
+    }
+
+    .mn-txt p {
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    .disc-bks {
+        margin: 40px 0px;
+        padding: 0px 50px;
+        text-align: center;
+    }
+
+    .bks-hdg {
+        font-size: 28px;
+        font-weight: 900;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .bks {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .bkitem {
+        width: 200px;
+    }
+
+    .bkimg {
+        height: 275px;
+        background-repeat: no-repeat;
+    }
+
+    .gameimg {
+        background-size: 100%;
+        height: 212px;
+        background-repeat: no-repeat;
+    }
+
+    .handimg {
+        background-size: 100%;
+        height: 215px;
+        background-repeat: no-repeat;
+    }
+
+    footer {
+        background-color: black;
+        padding: 5px 50px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .bt h3 {
+        width: 81px;
+        margin: 3px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .nm {
+        width: 155px;
+        margin-top: 30px;
+        text-align: end;
+        font-size: 14px;
+    }
+
+    .nm h3 {
+        margin: 5px;
+    }
+
+    .nm p {
+        margin: 0%;
+    }
+}
+
