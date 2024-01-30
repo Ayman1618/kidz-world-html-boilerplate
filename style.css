@@ -7,19 +7,19 @@ body{
     padding: 0%;
 }
 .navbar{
-    /* border: 2px solid black; */
-    padding: 0px 50px;
+    padding: 0px 48px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    
 }
 .logo img{
-    width: 120px;
+    width: 124px;
 }
 .cart{
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .cart img{
     width: 30px;
@@ -29,7 +29,7 @@ body{
     background-image: url(assets/kw-background.png);
     background-size: 100% 100%;
     width: 100%;
-    height: 390px;
+    height: 391px;
     padding: 10px 50px;
     background-repeat: no-repeat;
     
@@ -40,7 +40,7 @@ body{
 }
 
 .main-text p{
-    font-weight: 900;
+    font-weight: 905;
     font-size: 20px;
 }
 
@@ -51,11 +51,10 @@ body{
 
 
 .discover-new-books{
-    /* border: 4px solid black; */
     margin: 100px 0px;
-    /* height: 350px; */
     padding: 0px 50px;
 }
+
 .books-heading{
     font-size: 20px;
     font-weight: 800;
@@ -69,9 +68,7 @@ body{
 }
 
 .books{
-    
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     gap :50px;
     flex-wrap: wrap;
@@ -143,7 +140,6 @@ body{
 }
 .games{
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     gap: 80px;
     flex-wrap: wrap;
@@ -151,19 +147,16 @@ body{
 .discover-games .booklist{
     width: 230px;
 }
-.gameimg{
+.gameimage{
     background-size: 100%;
     height: 210px;
     background-repeat: no-repeat;
 
-    /* border: 2px solid blue; */
 }
 .gameimg1{
     background-image: url(assets/dart-board.png);
 }
-.gameimg2{
-    background-image: url(assets/connect-four.png);
-}
+
 .gameimg3{
     background-image: url(assets/jenga.png);
 }
@@ -187,6 +180,11 @@ body{
 .handimg2{
     background-image: url(assets/birthday-card.png);
 }
+
+.gameimg2{
+    background-image: url(assets/connect-four.png);
+}
+
 .handimg3{
     background-image: url(assets/stuffed-toy.png);
 }
@@ -196,7 +194,6 @@ body{
 
 footer{
     background-color: black;
-    /* height: 200px; */
     padding: 5px 50px;
     display: flex;
     justify-content: space-between;
@@ -223,6 +220,13 @@ footer{
 .name h3{
     margin: 5px;
 }
+
+.name{
+    margin-top: 30px;
+    text-align: end;
+    font-size: 14px;
+}
+
 .name p{
     margin: 0%;
 }
@@ -272,30 +276,7 @@ div.games{
         background-repeat: no-repeat;
         
     }
-    .main-text{
-        color: white;
-        width: 133px;
- 
-    }
-    .main-text h1{
-        font-size: 30px;
-        margin:5px 0px;
-        line-height: 1.2;
-        
-    }
-    .main-text p{
-        font-weight: 900;
-        font-size: 15px;
-    }
     
-    .discover-new-books{
-
-   
-        margin: 40px 0px;
-    
-        padding: 0px 50px;text-align: center;
-
-    }
     .books-heading{
         font-size: 28px;
         font-weight: 900;
@@ -354,6 +335,32 @@ div.games{
         color: gray;
         font-size: 13px;
     }
+
+    .main-text{
+        color: white;
+        width: 133px;
+ 
+    }
+    .main-text h1{
+        font-size: 30px;
+        margin:5px 0px;
+        line-height: 1.2;
+        
+    }
+    .main-text p{
+        font-weight: 900;
+        font-size: 15px;
+    }
+    
+    .discover-new-books{
+
+   
+        margin: 40px 0px;
+    
+        padding: 0px 50px;text-align: center;
+
+    }
+
     .item-price{
         display: flex;
         justify-content: space-between;
@@ -383,7 +390,6 @@ div.games{
     }
     .games{
         display: flex;
-        /* justify-content: space-between; */
         justify-content: center;
         gap: 80px;
         flex-wrap: wrap;
@@ -393,7 +399,7 @@ div.games{
         width: 230px;
      
     }
-    .gameimg{
+    .gameimage{
         background-size: 100%;
         height: 212px;
         background-repeat: no-repeat;
